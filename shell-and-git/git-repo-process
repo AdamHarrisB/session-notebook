@@ -1,0 +1,14 @@
+The Process of Making a Git Repository
+1. Create a folder 
+    mkdir "folder-name"
+2. Select a folder and navigate inside
+    cd "folder-name"
+3. Initialize Git
+    git init 
+4. Create a Repository on Github
+5. Copy the SSH link
+6. Link the Local and Remote versions of the Repository
+    git remote add origin "SSH link"
+7. Confirm that the two are linked
+    git remote -v
+8. Profit?
