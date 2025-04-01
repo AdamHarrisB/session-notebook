@@ -6,7 +6,7 @@ while: used when a task needs to be executed until a specific criteria is met.
 
 for: commonly used when a task needs to be executed a certain number of times or for each element in an object or array.
 
-While
+  While
 
 The while loop is the most fundemental type of loop. It repeats a code block as long as the stated criteria is true.
 
@@ -24,7 +24,7 @@ while (string.length <= 8) {
 
 This loop repeats itself 4 times, until the string becomes too long and the loop criteria changes to false.
 
-For
+  For
 
 For loops are intended for repeating a task as long as a certain condition is fullfilled. They consist of four internal parts:
 
