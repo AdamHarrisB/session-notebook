@@ -1,4 +1,4 @@
-The Process of Making a Git Repository
+    The Process of Making a Git Repository
 1. Create a folder 
     mkdir "folder-name"
 2. Select a folder and navigate inside
@@ -12,3 +12,21 @@ The Process of Making a Git Repository
 7. Confirm that the two are linked
     git remote -v
 8. Profit?
+
+    From Github
+
+…or create a new repository on the command line
+
+echo "# to-be-deleted" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:AdamHarrisB/to-be-deleted.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:AdamHarrisB/to-be-deleted.git
+git branch -M main
+git push -u origin main
