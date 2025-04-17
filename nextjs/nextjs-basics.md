@@ -29,19 +29,19 @@ How to Next.js: Basics
 Differences to Vite
 
 Here you can see a comparison of some relevant differences between Next.js and Vite:
-	                    Next.js (new) 	                Vite (old)
+	                      Next.js (new) 	              Vite (old)
 Root component 	        _app.js 	                    App.jsx
-Document 	            _document.js 	                /index.html
-Default styling 	    CSS Modules* 	                CSS*
-Rendering 	            Server and Client Side 	        Client Side
-Route definition 	    file structure in pages folder 	n/a
+Document 	              _document.js 	                /index.html
+Default styling 	      CSS Modules* 	                CSS*
+Rendering 	            Server and Client Side	      Client Side
+Route definition 	      file structure in pages foldern/a
 Client side links 	    <Link> component 	            n/a
-Image optimization 	    <Image> component 	            n/a
-Modifying <head> 	    <Head> component 	            n/a
-Font loading 	        @next/font package 	            n/a
+Image optimization 	    <Image> component 	          n/a
+Modifying <head> 	      <Head> component 	            n/a
+Font loading 	          @next/font package 	          n/a
 API routes 	            pages/api folder 	            n/a
-ESLint 	                Next.js specific rules 	        Vite specific rules
-Bundler + transpiler 	Webpack/Turbopack + SWC 	    esbuild / Rollup
+ESLint 	                Next.js specific rules 	      Vite specific rules
+Bundler + transpiler 	  Webpack/Turbopack + SWC 	    esbuild / Rollup
 
 Server-Side Rendering
 
